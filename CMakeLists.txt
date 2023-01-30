@@ -3,4 +3,4 @@ project(RayTracingInOneWeekend)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(RayTracingInOneWeekend main.cpp vec3.h color.h)
+add_executable(RayTracingInOneWeekend main.cpp vec3.h color.h ray.h)
