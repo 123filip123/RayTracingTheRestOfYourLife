@@ -1,7 +1,11 @@
 # ninja log v5
-3	1871	6974994463039589	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj	3c2527dc9d957a46
-1871	2222	6974994466539871	RayTracingInOneWeekend.exe	eddd2d556364e201
-3	1961	6975003230526642	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj	3c2527dc9d957a46
-1962	2410	6975003235006994	RayTracingInOneWeekend.exe	eddd2d556364e201
 3	2492	6975004808475106	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj	3c2527dc9d957a46
 2493	3009	6975004813622503	RayTracingInOneWeekend.exe	eddd2d556364e201
+3	2712	6975007303411792	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj	3c2527dc9d957a46
+2713	3263	6975007308977097	RayTracingInOneWeekend.exe	eddd2d556364e201
+3	2559	6975008635922609	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj	3c2527dc9d957a46
+2562	3219	6975008642537246	RayTracingInOneWeekend.exe	eddd2d556364e201
+3	2575	6975009497759237	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj	3c2527dc9d957a46
+2576	3220	6975009504198839	RayTracingInOneWeekend.exe	eddd2d556364e201
+4	2370	6975011282190200	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj	3c2527dc9d957a46
+2370	3024	6975011288734728	RayTracingInOneWeekend.exe	eddd2d556364e201
