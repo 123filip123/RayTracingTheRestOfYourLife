@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/filip/CLionProjects/RayTracingInOneWeekend/cmake-build-debug",
-		"source" : "C:/Users/filip/CLionProjects/RayTracingInOneWeekend"
+		"build" : "C:/Users/filip/CLionProjects/RayTracingTheNextWeek/cmake-build-debug",
+		"source" : "C:/Users/filip/CLionProjects/RayTracingTheNextWeek"
 	},
 	"version" : 
 	{

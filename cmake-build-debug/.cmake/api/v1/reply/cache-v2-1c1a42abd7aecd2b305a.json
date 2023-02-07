@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/filip/CLionProjects/RayTracingInOneWeekend/cmake-build-debug"
+			"value" : "c:/Users/filip/CLionProjects/RayTracingTheNextWeek/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/filip/CLionProjects/RayTracingInOneWeekend"
+			"value" : "C:/Users/filip/CLionProjects/RayTracingTheNextWeek"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1239,7 +1239,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/filip/CLionProjects/RayTracingInOneWeekend/cmake-build-debug"
+			"value" : "C:/Users/filip/CLionProjects/RayTracingTheNextWeek/cmake-build-debug"
 		},
 		{
 			"name" : "RayTracingInOneWeekend_IS_TOP_LEVEL",
@@ -1263,7 +1263,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/filip/CLionProjects/RayTracingInOneWeekend"
+			"value" : "C:/Users/filip/CLionProjects/RayTracingTheNextWeek"
 		}
 	],
 	"kind" : "cache",
