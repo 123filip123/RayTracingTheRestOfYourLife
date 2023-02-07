@@ -114,7 +114,8 @@
 				13,
 				14,
 				15,
-				16
+				16,
+				17
 			]
 		}
 	],
@@ -204,6 +205,11 @@
 		{
 			"backtrace" : 1,
 			"path" : "rtw_stb_image.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "aarect.h",
 			"sourceGroupIndex" : 1
 		}
 	],
