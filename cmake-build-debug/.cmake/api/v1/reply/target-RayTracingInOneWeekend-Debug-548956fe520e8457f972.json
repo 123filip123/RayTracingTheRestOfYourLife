@@ -58,7 +58,10 @@
 				0,
 				20,
 				21,
-				22
+				22,
+				23,
+				24,
+				25
 			]
 		}
 	],
@@ -98,7 +101,10 @@
 				0,
 				20,
 				21,
-				22
+				22,
+				23,
+				24,
+				25
 			]
 		},
 		{
@@ -246,6 +252,24 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "sphere_importance.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "sphere_plot.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cos_cubed.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "cos_density.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
