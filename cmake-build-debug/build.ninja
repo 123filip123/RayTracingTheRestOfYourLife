@@ -55,6 +55,12 @@ build CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj: CXX_COMPILER__RayTraci
   OBJECT_DIR = CMakeFiles\RayTracingInOneWeekend.dir
   OBJECT_FILE_DIR = CMakeFiles\RayTracingInOneWeekend.dir
 
+build CMakeFiles/RayTracingInOneWeekend.dir/pi.cpp.obj: CXX_COMPILER__RayTracingInOneWeekend_Debug C$:/Users/filip/CLionProjects/RayTracingTheNextWeek/pi.cpp || cmake_object_order_depends_target_RayTracingInOneWeekend
+  DEP_FILE = CMakeFiles\RayTracingInOneWeekend.dir\pi.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\RayTracingInOneWeekend.dir
+  OBJECT_FILE_DIR = CMakeFiles\RayTracingInOneWeekend.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target RayTracingInOneWeekend
@@ -63,7 +69,7 @@ build CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj: CXX_COMPILER__RayTraci
 #############################################
 # Link the executable RayTracingInOneWeekend.exe
 
-build RayTracingInOneWeekend.exe: CXX_EXECUTABLE_LINKER__RayTracingInOneWeekend_Debug CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj
+build RayTracingInOneWeekend.exe: CXX_EXECUTABLE_LINKER__RayTracingInOneWeekend_Debug CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj CMakeFiles/RayTracingInOneWeekend.dir/pi.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\RayTracingInOneWeekend.dir
