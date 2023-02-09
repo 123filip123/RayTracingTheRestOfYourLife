@@ -1,3 +1,11 @@
 # ninja log v5
 3	2537	6975060615015893	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj	3c2527dc9d957a46
 2537	3488	6975060624535920	RayTracingInOneWeekend.exe	eddd2d556364e201
+5	704	6976684593537542	CMakeFiles/RayTracingInOneWeekend.dir/pi.cpp.obj	a70b4a1a273117c2
+11	708	6976684593572531	CMakeFiles/RayTracingInOneWeekend.dir/integrate_x_sq.cpp.obj	63eb74f3872263c5
+16	711	6976684593607618	CMakeFiles/RayTracingInOneWeekend.dir/sphere_importance.cpp.obj	1d63a33645ff3d7b
+1	2696	6976684613396316	CMakeFiles/RayTracingInOneWeekend.dir/main.cpp.obj	3c2527dc9d957a46
+5	769	6976688418858909	CMakeFiles/RayTracingInOneWeekend.dir/pi.cpp.obj	a70b4a1a273117c2
+10	784	6976688418998959	CMakeFiles/RayTracingInOneWeekend.dir/sphere_importance.cpp.obj	1d63a33645ff3d7b
+7	782	6976688599788487	CMakeFiles/RayTracingInOneWeekend.dir/integrate_x_sq.cpp.obj	63eb74f3872263c5
+783	2022	6976688612163492	RayTracingInOneWeekend.exe	d1abdefc7cf4cd8d

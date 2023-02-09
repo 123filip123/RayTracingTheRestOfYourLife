@@ -9,7 +9,7 @@ inline double pdf(double x) {
     return 3*x*x/8;
 }
 
-int main() {
+int integrate_x_sq_main() {
     int N = 1;
     auto sum = 0.0;
     for (int i = 0; i < N; i++) {

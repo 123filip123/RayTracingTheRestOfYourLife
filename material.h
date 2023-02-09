@@ -12,27 +12,41 @@ public:
         return color(0,0,0);
     }
     virtual bool scatter(
-            const ray& r_in, const hit_record& rec, color& attenuation, ray& scattered
-    ) const = 0;
+            const ray& r_in, const hit_record& rec, color& albedo, ray& scattered, double& pdf
+    ) const {
+        return false;
+    }
+
+    virtual double scattering_pdf(
+            const ray& r_in, const hit_record& rec, const ray& scattered
+    ) const {
+        return 0;
+    }
 };
 
 class lambertian : public material {
 public:
-    lambertian(const color& a) : albedo(make_shared<solid_color>(a)) {}
-    lambertian(shared_ptr<texture> a) : albedo(a) {}
+    virtual double scattering_pdf(
+            const ray& r_in, const hit_record& rec, const ray& scattered
+    ) const {
+        return 0;
+    }
 
     virtual bool scatter(
-            const ray& r_in, const hit_record& rec, color& attenuation, ray& scattered
+            const ray& r_in, const hit_record& rec, color& alb, ray& scattered, double& pdf
     ) const override {
-        auto scatter_direction = rec.normal + random_unit_vector();
-
-        // Catch degenerate scatter direction
-        if (scatter_direction.near_zero())
-            scatter_direction = rec.normal;
-
-        scattered = ray(rec.p, scatter_direction);
-        attenuation = albedo->value(rec.u, rec.v, rec.p);
+        auto direction = random_in_hemisphere(rec.normal);
+        scattered = ray(rec.p, unit_vector(direction), r_in.time());
+        alb = albedo->value(rec.u, rec.v, rec.p);
+        pdf = 0.5 / pi;
         return true;
+    }
+
+    double scattering_pdf(
+            const ray& r_in, const hit_record& rec, const ray& scattered
+    ) const {
+        auto cosine = dot(rec.normal, unit_vector(scattered.direction()));
+        return cosine < 0 ? 0 : cosine/pi;
     }
 
 public:
@@ -44,7 +58,7 @@ public:
     metal(const color& a, double f) : albedo(a), fuzz(f < 1 ? f : 1) {}
 
     virtual bool scatter(
-            const ray& r_in, const hit_record& rec, color& attenuation, ray& scattered
+            const ray& r_in, const hit_record& rec, color& alb, ray& scattered, double& pdf
     ) const override {
         vec3 reflected = reflect(unit_vector(r_in.direction()), rec.normal);
         scattered = ray(rec.p, reflected + fuzz*random_in_unit_sphere(), r_in.time());
